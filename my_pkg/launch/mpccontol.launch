@@ -1,0 +1,4 @@
+<launch>
+    <node pkg = "my_pkg" type="stanley_controller" name="stanley_controller_node" output = "screen"/>
+    <node pkg = "my_pkg" type="lane_visualize.py" name="lane_visualize_node"/>
+</launch>
